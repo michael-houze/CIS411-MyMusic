@@ -12,16 +12,16 @@ import com.wesleyreisz.mymusic.service.MockMusicService;
 import java.util.List;
 
 
-public class MyMusicActivity extends Activity {
+public class MusicPartAMainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_music);
+        setContentView(R.layout.activity_music_part_a_main);
 
         ListView listView = (ListView) findViewById(R.id.listViewSong);
         List<Song> songs = new MockMusicService().findAll();
-        SongAdapter songAdapter = new SongAdapter(this, R.layout.activity_my_music, songs);
+        SongAdapter songAdapter = new SongAdapter(this, R.layout.activity_music_part_a_main, songs);
         listView.setAdapter(songAdapter);
     }
 

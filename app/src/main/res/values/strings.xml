@@ -4,5 +4,8 @@
     <string name="app_name">My Music</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_music_part_bmain">MusicPartBMainActivity</string>
+    <string name="title_activity_song_list_fragment">SongListFragmentActivity</string>
+    <string name="title_activity_test">TestActivity</string>
 
 </resources>
